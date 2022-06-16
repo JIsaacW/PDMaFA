@@ -32,17 +32,17 @@ The program execute depend on `input.json` , most control variables are defined 
 
 ```json
 {
-    "Length"   : 12.7,				// Characteristic length
-    "density"  : 1,					// Fluid density
-    "startT"   : 1400,				// The first time step which you are intend to start the sampling
-    "endT"     : 2800,				// The last time step which you are intednt to end the sampling
-    "freq"     : 1,					// The sampling frequency, usually equal to the increment of VTU files
-    "dt"       : 0.002,				// The computing time step length
-    "srcDir"   : "/home/isaac/Desktop/2Dtestcase_0615/96-procs",		// The result VTU files path
-    "outputdir": "../Output/",											// The output directory path,
-    "keywords" : ["Pressure","Velocity"],								// The monitoring physical variables
-    "pointsList" : [[128,0,0],[191.5,0,0],[255,0,0]],					// The goal sampling points coordinates
-    "tolerance": 0.7													// Distance between goal points and real sampling points
+    "Length"   : 12.7,              // Characteristic length
+    "density"  : 1,	                // Fluid density
+    "startT"   : 1400,              // The first time step which you are intend to start the sampling
+    "endT"     : 2800,              // The last time step which you are intednt to end the sampling
+    "freq"     : 1,                 // The sampling frequency, usually equal to the increment of VTU files
+    "dt"       : 0.002,             // The computing time step length
+    "srcDir"   : "/home/isaac/Desktop/2Dtestcase_0615/96-procs",        // The result VTU files path
+    "outputdir": "../Output/",                                          // The output directory path,
+    "keywords" : ["Pressure","Velocity"],                               // The monitoring physical variables
+    "pointsList" : [[128,0,0],[191.5,0,0],[255,0,0]],                   // The goal sampling points coordinates
+    "tolerance": 0.7                                                    // Distance between goal points and real sampling points
 }
 ```
 
