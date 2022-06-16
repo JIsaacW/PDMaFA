@@ -1,2 +1,2 @@
 # PDMaFA
-point data monitor and frequency program from vtu files
+point data monitor and frequency analysis program from vtu files
