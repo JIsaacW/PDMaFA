@@ -1,0 +1,13 @@
+{
+    "Length"   : 12.7,
+    "density"  : 1,
+    "startT"   : 1400,
+    "endT"     : 2800,
+    "freq"     : 1,
+    "dt"       : 0.002,
+    "srcDir"   : "/home/isaac/Desktop/2Dtestcase_0615/96-procs",
+    "outputdir": "../Output/",
+    "keywords" : ["Pressure","Velocity"],
+    "pointsList" : [[128,0,0],[191.5,0,0],[255,0,0]],
+    "tolerance": 0.7
+}
